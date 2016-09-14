@@ -54,3 +54,10 @@ Code and documentation are released under the MIT license.
 | Feature       | Chrome | Firefox | Internet Explorer | Safari |
 |---------------|--------|---------|-------------------|--------|
 | Basic Support | Latest | Latest  | 9+                | 5.1+   |
+
+## Further Reading
+
+- [ARIA Tooltip Example](http://accessibility.athena-ict.com/aria/examples/tooltip.shtml)
+- [Practical ARIA Examples](http://heydonworks.com/practical_aria_examples/)
+- [ARIA Role=ToolTip](http://pauljadam.com/demos/aria-role-tooltip.html)
+- [ARIA Practices: Tooltips](https://www.w3.org/TR/wai-aria-practices-1.1/#dialog_tooltip)
