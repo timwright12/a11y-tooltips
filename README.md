@@ -55,6 +55,8 @@ Code and documentation are released under the MIT license.
 |---------------|--------|---------|-------------------|--------|
 | Basic Support | Latest | Latest  | 9+                | 5.1+   |
 
+Chrome and Firefox update too much to go back and test each version, if you need a certain on tested, just let me know. Or if there's a bug somewhere, feel free to file an issue and I'll fix it.
+
 ## Further Reading
 
 - [ARIA Tooltip Example](http://accessibility.athena-ict.com/aria/examples/tooltip.shtml)
