@@ -142,7 +142,7 @@
         top: 50%;
         transform: translate(10px, -50%); } }
 
-.a11y-tip--hide .a11y-tip__help {
+.a11y-tip--hide {
   display: none; }
 
 .no-js .a11y-tip__help:not([role]) {

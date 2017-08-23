@@ -268,7 +268,7 @@ $tip--no-delay: .18s !default;
 
 
 // hide tool tips if the ESC key is hit
-.#{$ns}a11y-tip--hide .#{$ns}a11y-tip__help {
+.#{$ns}a11y-tip--hide {
 	display: none;
 }
 

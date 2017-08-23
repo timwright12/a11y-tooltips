@@ -155,10 +155,8 @@
 
 		  	// hide the tooltip on blur of the trigger
 			trigger.addEventListener( "blur", function( e ) {
-				var parent = this.parentNode;
-
-				if( a11yTT.hasClass( parent, 'a11y-tip--hide') ) {
-			  		a11yTT.removeClass( parent, 'a11y-tip--hide');
+				if( a11yTT.hasClass( this.nextElementSibling, 'a11y-tip--hide') ) {
+			  		a11yTT.removeClass( this.nextElementSibling, 'a11y-tip--hide');
 				}
 			}, false );
 
@@ -173,7 +171,7 @@
 
 				if ( e.which == 27 ) {
 					e.preventDefault();
-					a11yTT.addClass( this, 'a11y-tip--hide' )
+					a11yTT.addClass( this.nextElementSibling, 'a11y-tip--hide' )
 					return false;
 				}
 
